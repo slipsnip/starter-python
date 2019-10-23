@@ -1,4 +1,6 @@
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 from flask import Flask, Response, request, render_template
 from twilio.twiml.voice_response import VoiceResponse
